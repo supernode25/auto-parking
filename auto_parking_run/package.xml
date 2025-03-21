@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>auto_parking_run</name>
+  <version>0.0.1</version>
+  <description>Launch file for auto parking</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>realsense2_camera</depend>
+  <depend>aruco_perception</depend>
+  <depend>aruco_position_control</depend>
+
+</package>

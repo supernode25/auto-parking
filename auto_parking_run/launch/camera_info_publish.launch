@@ -1,0 +1,4 @@
+<launch>
+    <!-- Camera Info Publisher 실행 -->
+    <node name="camera_info_publisher" pkg="camera_info_publisher" type="camera_info_publisher" output="screen"/>
+</launch>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>camera_info_publisher</name>
+  <version>0.0.0</version>
+  <description>The camera_info_publisher package</description>
+
+  <!-- These are the maintainers of the package -->
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+
+  <!-- License for the package -->
+  <license>TODO</license>
+
+  <!-- Build and runtime dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Export the dependencies to other packages -->
+  <export>
+  </export>
+</package>
+

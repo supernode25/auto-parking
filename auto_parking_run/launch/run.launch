@@ -1,0 +1,18 @@
+<launch>
+    <!-- RealSense Camera Launch -->
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch" /> 
+
+    <!-- Camera info Publish -->
+    <include file="$(find camera_info_publisher)/launch/camera_info_publish.launch" />
+
+    <!-- ArUco Detector Node -->
+    <node name="aruco_detector" pkg="aruco_perception" type="aruco_detector" output="screen">
+        <param name="aruco_dictionary" value="DICT_6X6_250"/>
+        <param name="display_output" value="true"/>
+    </node>
+
+    <!-- ArUco Position Control Node -->
+    <include file="$(find aruco_position_control)/launch/aruco_position_control.launch" />
+    
+
+</launch>

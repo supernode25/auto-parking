@@ -1,0 +1,6 @@
+<launch>
+    <node name="aruco_detector" pkg="aruco_perception" type="aruco_detector" output="screen">
+        <param name="aruco_dictionary" value="DICT_6x6_250"/>
+        <param name="display_output" value="true"/>
+    </node>
+</launch>

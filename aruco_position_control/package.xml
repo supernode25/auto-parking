@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aruco_position_control</name>
+  <version>0.0.0</version>
+  <description>The aruco_position_control package</description>
+
+  <maintainer email="your_email@domain.com">Your Name</maintainer>
+  <license>TODO</license>
+
+  <!-- Dependencies for build and execution -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend> <!-- Added tf2_ros -->
+  <build_depend>pcl_conversions</build_depend> <!-- Added pcl_conversions -->
+  <build_depend>PCL</build_depend> <!-- Added PCL -->
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend> <!-- Added tf2_ros -->
+  <exec_depend>pcl_conversions</exec_depend> <!-- Added pcl_conversions -->
+  <exec_depend>PCL</exec_depend> <!-- Added PCL -->
+
+</package>

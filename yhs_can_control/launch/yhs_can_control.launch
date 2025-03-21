@@ -1,0 +1,10 @@
+<!--yhs-->
+<launch>
+
+    <node pkg="yhs_can_control" type="yhs_can_control_node" name="yhs_can_control_node" output="screen">
+    
+    </node>
+
+	<node pkg="tf2_ros" type="static_transform_publisher" name="ultrasonic_link_to_base_link" args="0.0 0.0 0.0 0 0 0 base_link ultrasonic_laser_link"/>
+
+</launch>

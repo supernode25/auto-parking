@@ -1,0 +1,4 @@
+<launch>
+    <node name="aruco_position_control" pkg="aruco_position_control" type="aruco_position_control_node" output="screen"/>
+</launch>
+
