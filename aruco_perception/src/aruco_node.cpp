@@ -74,10 +74,10 @@ public:
 
                     cv::Mat rvec, tvec;
                     std::vector<cv::Point3f> marker_3d_edges = {
-                        cv::Point3f(-30, -30, 0),  // 왼쪽 하단
-                        cv::Point3f(30, -30, 0),   // 오른쪽 하단
-                        cv::Point3f(30, 30, 0),    // 오른쪽 상단
-                        cv::Point3f(-30, 30, 0)    // 왼쪽 상단
+                        cv::Point3f(-25, -25, 0),  // 왼쪽 하단
+                        cv::Point3f(25, -25, 0),   // 오른쪽 하단
+                        cv::Point3f(25, 25, 0),    // 오른쪽 상단
+                        cv::Point3f(-25, 25, 0)    // 왼쪽 상단
                     };
 
                     bool ret = cv::solvePnP(marker_3d_edges, corners[i], camera_matrix_, dist_coeffs_, rvec, tvec);
